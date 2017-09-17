@@ -1,0 +1,4 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"description": "游戏服务传输协议"
+}

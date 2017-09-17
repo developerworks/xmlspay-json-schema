@@ -1,0 +1,13 @@
+{
+	"email": "developerworks@163.com",
+	"detail": {
+		"name": "hezhiqiang",
+		"tel": "18680868041"
+	},
+	"addresses": [
+		{
+			"street": "街道地址1",
+			"postcode": "400031"
+		}
+	]
+}
