@@ -1,61 +1,61 @@
 {
-	"$schema": "http://json-schema.org/draft-04/schema#",
-	"$ref": "#/definitions/object_01",
-	"definitions": {
-		"object_01": {
-			"type": "object",
-			"properties": {
-				"email": {
-					"type": "string",
-					"format": "email"
-				},
-				"detail": {
-					"title": "detail",
-					"type": "object",
-					"properties": {
-						"name": {
-							"type": "string"
-						},
-						"tel": {
-							"type": "string",
-							"minLength": 11,
-							"maxLength": 11,
-							"pattern": "^[0-9]{11}$"
-						}
-					},
-					"required": [
-						"name"
-					],
-					"additionalProperties": false
-				},
-				"addresses": {
-					"title": "addresses",
-					"type": "array",
-					"minItems": 1,
-					"items": {
-						"type": "object",
-						"properties": {
-							"street": {
-								"type": "string"
-							},
-							"postcode": {
-								"type": "string"
-							}
-						},
-						"required": [
-							"street",
-							"postcode"
-						],
-						"additionalProperties": false
-					}
-				}
-			},
-			"required": [
-				"email",
-				"detail",
-				"addresses"
-			],
-			"additionalProperties": false
-		}
-	}
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "$ref": "#/definitions/object_01",
+  "definitions": {
+    "object_01": {
+      "type": "object",
+      "properties": {
+        "email": {
+          "type": "string",
+          "format": "email"
+        },
+        "detail": {
+          "title": "detail",
+          "type": "object",
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "tel": {
+              "type": "string",
+              "minLength": 11,
+              "maxLength": 11,
+              "pattern": "^[0-9]{11}$"
+            }
+          },
+          "required": [
+            "name"
+          ],
+          "additionalProperties": false
+        },
+        "addresses": {
+          "title": "addresses",
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "properties": {
+              "street": {
+                "type": "string"
+              },
+              "postcode": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "street",
+              "postcode"
+            ],
+            "additionalProperties": false
+          }
+        }
+      },
+      "required": [
+        "email",
+        "detail",
+        "addresses"
+      ],
+      "additionalProperties": false
+    }
+  }
 }

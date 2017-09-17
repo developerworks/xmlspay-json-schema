@@ -1,14 +1,16 @@
 <?xml version="1.0"?>
-<ajson:json xmlns:ajson="http://www.altova.com/json" ajson:type="object">
-	<email ajson:type="string">developerworks@163.com</email>
-	<detail ajson:type="object">
-		<name ajson:type="string">hezhiqiang</name>
-		<tel ajson:type="string">18680868041</tel>
-	</detail>
-	<addresses ajson:type="array">
-		<item ajson:type="object">
-			<street ajson:type="string">街道地址1</street>
-			<postcode ajson:type="string">400031</postcode>
-		</item>
-	</addresses>
+<ajson:json 
+  xmlns:ajson="http://www.altova.com/json" ajson:type="object">
+  <email ajson:type="string">developerworks@163.com</email>
+  <detail ajson:type="object">
+    <name ajson:type="string">hezhiqiang</name>
+    <tel ajson:type="string">18680868041</tel>
+  </detail>
+  <addresses ajson:type="array">
+    <item ajson:type="object">
+      <street ajson:type="string">街道地址1</street>
+      <postcode ajson:type="string">400031</postcode>
+    </item>
+  </addresses>
 </ajson:json>
+  
